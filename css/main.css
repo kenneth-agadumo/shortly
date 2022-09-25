@@ -180,13 +180,13 @@ a{
 /* STATISTICS SECTION #START */
 .statistics{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background: #F0F1F6;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    padding-bottom: 5rem;
+    padding: 0 0 9rem;
 }
 
 /* URL SECTION #START */
@@ -236,6 +236,41 @@ a{
 }
 
 /* URL SECTION #END */
+
+/* Links Section #START */
+.links{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    background: white;
+    width: 80%;
+    height: 3.2rem;
+    display: grid;
+    grid-template-columns: 62% 25% 10%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius:5px;
+    padding: 2rem 0;
+}
+.short-link{
+    color: var(--primary--);
+}
+
+.copy{
+    width: 5.5rem;
+    height: 2.2rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background: var(--primary--);
+}
+
 
 .statistics-text{
     text-align: center;
