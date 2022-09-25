@@ -192,7 +192,7 @@ a{
 /* URL SECTION #START */
 .url-short, .newsletter{
     width: 80%;
-    height: 7rem;
+    height: 7.5rem;
     background: var(--dark-violet--) url(../images/bg-shorten-desktop.svg);
     background-size: cover;
     display: flex;
@@ -207,12 +207,24 @@ a{
 }
 
 .url-short input, .newsletter-form input{
-    border: 3.5px solid var(--red--);
+    
     width: 65%;
     height: 3.6rem;
     padding: 0 15px;
-    border-radius: 6px ;
+    border-radius: 6px ; 
     color: var(--dark-violet--);
+}
+.error{
+    border: 3.5px solid var(--red--);
+}
+
+.url-short p{
+    position: absolute;
+    top: 5.5rem;
+    left: 7rem;
+    color: var(--red--);
+    padding: 4px 0;
+    display: none;
 }
 
 .url-short .shorten, .newsletter-form .subscribe{
